@@ -1,4 +1,4 @@
-.UN {
+.UN{
   font-size: 44px; 
   font-family: 'DM Sans'; 
   font-style: normal; 
@@ -9,7 +9,7 @@
 
 .UN input{
   box-sizing: border-box; 
-  position: absolute;
+  /*position: absolute;*/
   width:689px;
   height: 66px; 
   background: #FFFFFF; 
@@ -29,11 +29,73 @@
 
 .PW input{
   box-sizing: border-box; 
-  position: absolute;
+  /*position: absolute;*/
   width:689px;
   height: 66px; 
   background: #FFFFFF; 
   border: 1px solid #007E85; 
   border-radius: 10px; 
   margin: 8px 0;
+}
+
+.fButton{
+  position: relative;
+  width: 138px;
+  height: 27px;
+  background: #007E85;
+  border-radius: 8px;
+
+  /*position: absolute;*/
+  width: 150px;
+  height: 23px;
+  left: 11px;
+  top: 4px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.EM {
+  font-size: 44px; 
+  font-family: 'DM Sans'; 
+  font-style: normal; 
+  font-weight: 700; 
+  line-height: 50px;
+  color: #007E85;
+}
+
+.EM input{
+  box-sizing: border-box; 
+  /*position: absolute;*/
+  width:689px;
+  height: 66px; 
+  background: #FFFFFF; 
+  border: 1px solid #007E85; 
+  border-radius: 10px; 
+  margin: 8px 0;
+}
+
+.fButton .cButton{
+  position: relative;
+  width: 138px;
+  height: 27px;
+  background: #007E85;
+  border-radius: 8px;
+
+  /*position: absolute;*/
+  width: 150px;
+  height: 23px;
+  left: 11px;
+  top: 4px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
 }
